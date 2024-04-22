@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_class/Getx/main.dart';
+import 'package:flutter_class/bloc/main.dart';
+import 'package:flutter_class/http/main.dart';
 import 'package:flutter_class/screens/align.dart';
 import 'package:flutter_class/screens/bottomnavigation.dart';
 import 'package:flutter_class/screens/card.dart';
@@ -24,7 +27,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
      
-      home:GesturenInkwell(),
+      home:HttpExample(),
     );
   }
 }
